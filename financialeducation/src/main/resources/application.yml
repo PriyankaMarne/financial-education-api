@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: financialeducation
+  ai:
+    ollama:
+      chat:
+        options:
+          model: llama3.2:1b
+
+server:
+  servlet:
+    context-path: /api
